@@ -5,7 +5,7 @@ using namespace std;
 
 int main(void) 
 {
-  int F, C;
+  float F, C;
   cout << "Digite a temperatura em Celsius: ";
   cin >> C;
   cin.ignore (80, '\n');
