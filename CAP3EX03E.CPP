@@ -1,4 +1,4 @@
-//C3EX03E
+//CAP3EX03E
 
 #include <iostream>
 using namespace std;
