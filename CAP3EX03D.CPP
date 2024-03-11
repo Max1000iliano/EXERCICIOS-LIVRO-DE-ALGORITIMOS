@@ -1,4 +1,4 @@
-//C3EX03D.CPP
+//CAP3EX03D.CPP
 
 #include <iostream>
 using namespace std;
