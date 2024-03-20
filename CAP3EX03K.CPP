@@ -1,4 +1,4 @@
-//CAP03EX3K.CPP
+//CAP3EX03K.CPP
 
 #include <iostream>
 
