@@ -13,13 +13,13 @@ int main(void)
   cin >> cotacao;
   cin.ignore (80, '\n');
 
-  cout << "Digite a quantidade disponível de dólares: ";
+  cout << "Digite a quantidade disponivel de dolares: ";
   cin >> dolares;
   cin.ignore (80, '\n');
 
   real = dolares * cotacao;
 
-  cout << "A conversão em reais é: " << fixed << setprecision (2) <<real << endl;
+  cout << "A conversao em reais e: " << fixed << setprecision (2) <<real << endl;
   cout << "Tecle <ENTER> para encerrar o programa...";
 
   cin.get ();
