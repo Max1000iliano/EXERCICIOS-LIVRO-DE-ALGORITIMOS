@@ -1,13 +1,14 @@
-//CAP3EX03K.CPP
+//CAP03EX3K.CPP
 
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
 int main(void) 
 {
   float dolares, real, cotacao;
-  
+
   cout << "Digite o valor da cotacao do dolar: ";
   cin >> cotacao;
   cin.ignore (80, '\n');
@@ -18,10 +19,10 @@ int main(void)
 
   real = dolares * cotacao;
 
-  cout << "A conversão em reais é: " << real << endl;
+  cout << "A conversão em reais é: " << fixed << setprecision (2) <<real << endl;
   cout << "Tecle <ENTER> para encerrar o programa...";
 
   cin.get ();
   return 0;
-  
+
 }
