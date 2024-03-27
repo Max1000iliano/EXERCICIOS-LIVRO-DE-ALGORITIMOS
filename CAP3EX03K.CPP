@@ -1,7 +1,6 @@
 //CAP03EX3K.CPP
 
 #include <iostream>
-#include <iomanip>
 
 using namespace std;
 
@@ -19,7 +18,7 @@ int main(void)
 
   real = dolares * cotacao;
 
-  cout << "A conversao em reais e: " << fixed << setprecision (2) <<real << endl;
+  cout << "A conversao em reais e: " <<real << endl;
   cout << "Tecle <ENTER> para encerrar o programa...";
 
   cin.get ();
