@@ -17,9 +17,9 @@ int main(void) {
   if (soma > 10) {
     cout << "A soma e " << soma << endl;
   }
-  else {
-    cout << "O valor da soma e menor que 10" << endl;
-  }
+  /* else {
+   cout << "O valor da soma e menor que 10" << endl;
+   } */
 
   cout << "Tecle <Enter> para encerrar o programa..." << endl;
   cin.get ();
