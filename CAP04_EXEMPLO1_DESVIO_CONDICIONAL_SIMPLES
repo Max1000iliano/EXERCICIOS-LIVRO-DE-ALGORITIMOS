@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main(void) {
+  int A, B, soma;
+
+  cout << "Digite o valor de A: ";
+  cin >> A;
+  cin.ignore (80, '\n');
+
+  cout << "Digite o valor de B: ";
+  cin >> B;
+  cin.ignore (80, '\n');
+
+  soma = A + B;
+
+  if (soma > 10) {
+    cout << "A soma e " << soma << endl;
+  }
+  else {
+    cout << "O valor da soma e menor que 10" << endl;
+  }
+
+  cout << "Tecle <Enter> para encerrar o programa..." << endl;
+  cin.get ();
+  return 0;
+}
