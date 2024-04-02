@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main(void) {
+  float a,b,r;
+  
+  std::cout << "Digite o valor de A: ";
+  std::cin >> a;
+  std::cin.ignore (80,'\n');
+
+  std::cout << "Digite o valor de B: ";
+  std::cin >> b;
+  std::cin.ignore (80, '\n');
+
+  r = a + b;
+
+  if (r >= 10) {
+    std::cout << "O valor de R = " << r + 5 << std::endl;
+  }
+  else {
+    std::cout << "O valor de R = " << r - 7 << std::endl;
+  }
+
+ std::cout << "Tecle <ENTER> para encerrar o programa...";
+ std::cin.get ();
+ return 0;
+  
+}
