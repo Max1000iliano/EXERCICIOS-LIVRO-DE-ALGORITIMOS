@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(void) {
   int a, b, r;
 
   cout << "Digite o valor de A: ";
