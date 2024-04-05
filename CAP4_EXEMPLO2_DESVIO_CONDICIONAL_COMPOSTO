@@ -1,3 +1,5 @@
+//CAP4EXEMPLO2
+
 #include <iostream>
 
 int main(void) {
@@ -20,6 +22,5 @@ int main(void) {
 
  std::cout << "Tecle <ENTER> para encerrar o programa...";
  std::cin.get ();
- return 0;
-  
+ return 0; 
 }
