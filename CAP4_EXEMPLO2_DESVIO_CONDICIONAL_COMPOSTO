@@ -13,12 +13,10 @@ int main(void) {
 
   r = a + b;
 
-  if (r >= 10) {
+  if (r >= 10)
     std::cout << "O valor de R = " << r + 5 << std::endl;
-  }
-  else {
+  else
     std::cout << "O valor de R = " << r - 7 << std::endl;
-  }
 
  std::cout << "Tecle <ENTER> para encerrar o programa...";
  std::cin.get ();
